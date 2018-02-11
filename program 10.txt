@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+ int hours,minutes,time;
+ printf("enter hours:");
+ scanf("%d",&hours);
+printf("enter minutes:");
+scanf("%d",&minutes);
+time=(hours*60)+minutes;
+printf("time in minutes=\t %d\t",time);
+return(0);
+}

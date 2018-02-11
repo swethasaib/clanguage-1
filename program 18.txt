@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int year,fyear;
+printf("enter year:");
+scanf("%d",&year);
+fyear=year%100;
+printf("last two digit of year is:%d",year);
+return 0;
+}
